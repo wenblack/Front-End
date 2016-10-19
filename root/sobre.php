@@ -1,31 +1,27 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
- 	<head>
+ 	<?php
+		$cabecalho_title = "Sobre a Mirror Fashion";
+		include("cabecalho.php");
+	?>
+	<head>
   		<meta charset="utf-8">
-   		<title>Sobre a Mirror Fashion</title>
-   		<link rel="stylesheet" href="css/sobre.css">
-   		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/sobre.css">
+		<link rel="stylesheet" href="css/estilo.css">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/mobile2.css" media="(max-width: 320px)">
 		<link rel="stylesheet" href="css/mobile2.css" media="(max-width: 939px)">
 	</head>
-	<body>
-		<header>
-			<!--[if lt IE 9]
-			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			[endif]-->
- 				 <a href="index.html">
-  					<img src="img/logo.png" alt="Mirror Fashion">
-  				</a>	
-  		</header>
-
+	<body>	
 		<ARTICLE>
 			<SECTION id ="home">
-				<h1> 
-					A Mirror Fashion
-				</h1>
+				<h2> 
+					A Mirror Fashion<br>
+				</h2>
  					<p> 
  						A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo.<br>  
-    					Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de participação em 118 deles.
+    					Fundada à <?php print date("Y") - 1932; ?> anos , possui filiais em 124 países, sendo líder de mercado com mais de 90% de participação em 118 deles.
  					</p>
  					<p>
    						Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho"> Jacarezinho, no Paraná </a>. De lá, saem 48 aviões que distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:
@@ -37,7 +33,7 @@
 						</figcaption>
 					</figure>
 					<p>
-						Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja </a>ou entre em contato se tiver dúvidas. Conheça também nossa <a href="#história">história</a> e nossos <a href="#diferenciais"> diferenciais</a>.
+						Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php">nossa loja </a>ou entre em contato se tiver dúvidas. Conheça também nossa <a href="#história">história</a> e nossos <a href="#diferenciais"> diferenciais</a>.
 					</p>
 			</SECTION><!--FIM da sessão Home-->
 		 	
@@ -87,17 +83,8 @@
 				</div>
 			</section>
 
-			<footer>
-				<div class="container">
-					<img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-					<ul class="social">
-						<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-						<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-						<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-					</ul>
-				</div>
-				
-			</footer>
+			
 		</ARTICLE>
+		<?php include("rodape.php"); ?>
 	</body>
 </html>

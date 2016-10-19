@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html>
+	<?php
+			$cabecalho_title = "Mirror Fashion";
+			include("cabecalho.php");						
+	?>	
 	<head>
-		<meta charset="utf-8">
-		<title>Mirror Fashion</title>
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/estilo.css">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
 		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-	</head>
+	<head>
 	<body>
-		<header class="container">
-			<!--[if lt IE 9]
-			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			[endif]-->
-  			<h1>
-  				<img src="img/logo.png" alt="Mirror Fashion">
-  			</h1>
-			<p class="sacola">
-				Nenhum item na sacola de compras
-			</p>
-			<nav class="menu-opcoes">
-				<ul>
-					<li><a href="#">Sua Conta</a></li>
-					<li><a href="#">Lista de Desejos</a></li>
-					<li><a href="#">Cartão Fidelidade</a></li>
-					<li><a href="sobre.htm">Sobre</a></li>
-					<li><a href="#">Ajuda</a></li>
-				</ul>
-			</nav>
-		</header><!-- Término do cabeçalho-->
+		
 		
 		<section id="main"><!-- Inicio  da sessão principal-->
 			<div class="container destaque"><!-- Inicio .container .destaque -->
@@ -74,7 +58,7 @@
 					<h2>Novidades</h2>
 					<ol><!-- primeiro produto -->
 						<li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura1.png">
 									<figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
@@ -83,7 +67,7 @@
 						</li>
 
                         <li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura10.png">
 									<figcaption>Blusa de lã por R$ 60,00</figcaption>
@@ -92,7 +76,7 @@
 						</li>
 
 						<li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura4.png">
 									<figcaption>Jaqueta com Capuz por R$ 129,00</figcaption>
@@ -101,7 +85,7 @@
 						</li>
 
 						<li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura5.png">
 									<figcaption>Regata Feminina por R$ 29,00</figcaption>
@@ -110,7 +94,7 @@
 						</li>
 
 						<li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura9.png">
 									<figcaption>Camisa Xadrez por R$ 69,00</figcaption>
@@ -119,7 +103,7 @@
 						</li>
 
 						<li>
-							<a href="produto.html">
+							<a href="produto.php">
 								<figure>
 									<img src="img/produtos/miniatura15.png">
 									<figcaption>Vestido por R$ 90,00</figcaption>
@@ -133,7 +117,7 @@
 					<h2>Mais Vendidos</h2>
 						<ol>
 							<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura9.png">
 										<figcaption>R$ 69,00</figcaption>
@@ -142,7 +126,7 @@
 							</li>
 
                         	<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura14.png">
 										<figcaption>R$ 35,00</figcaption>
@@ -151,7 +135,7 @@
 							</li>
 
 							<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura7.png">
 										<figcaption>R$ 20,00</figcaption>
@@ -160,7 +144,7 @@
 							</li>
 
 							<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura2.png">
 										<figcaption>Regata Feminina por R$ 30,00</figcaption>
@@ -169,7 +153,7 @@
 							</li>
 
 							<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura15.png">
 										<figcaption>R$ 90,00</figcaption>
@@ -178,7 +162,7 @@
 							</li>
 
 							<li>
-								<a href="produto.html">
+								<a href="produto.php">
 									<figure>
 										<img src="img/produtos/miniatura5.png">
 										<figcaption>R$ 29,00</figcaption>
@@ -191,15 +175,6 @@
 			</div>
 		</section><!-- Término da sessão destinado aos Painéis com destaques -->
 		
-		<footer><!-- Conteúdo do rodapé -->
-			<div class="container">
-				<img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-				<ul class="social">
-					<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-					<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-					<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-				</ul>
-			</div>
-		</footer>
+		<?php include("rodape.php"); ?>
 	</body>
 </html>
