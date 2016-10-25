@@ -10,8 +10,8 @@
 		<link rel="stylesheet" href="css/sobre.css">
 		<link rel="stylesheet" href="css/estilo.css">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/mobile2.css" media="(max-width: 320px)">
-		<link rel="stylesheet" href="css/mobile2.css" media="(max-width: 939px)">
+		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
+		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
 	</head>
 	<body>	
 		<ARTICLE>
@@ -83,8 +83,8 @@
 				</div>
 			</section>
 
-			
+		<?php include("rodape.php"); ?>	
 		</ARTICLE>
-		<?php include("rodape.php"); ?>
+		
 	</body>
 </html>
