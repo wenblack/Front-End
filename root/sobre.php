@@ -83,8 +83,8 @@
 				</div>
 			</section>
 
-		<?php include("rodape.php"); ?>	
-		</ARTICLE>
 		
+		</ARTICLE>
+		<?php include("rodape.php"); ?>	
 	</body>
 </html>

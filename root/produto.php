@@ -92,12 +92,12 @@
 						</tbody>
 						
 					</table>
-					<?php include("rodape.php"); ?>
+					
 				</div>
 			
 			</div>	
 		</div>
 		
-		
+	<?php include("rodape.php"); ?>	
 	</body>
 </html>
